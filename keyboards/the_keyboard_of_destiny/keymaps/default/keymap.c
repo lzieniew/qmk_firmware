@@ -22,7 +22,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT_ortho_4x10(
         KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,
         HOME_A,  HOME_S,  HOME_D,  HOME_F,  KC_G,    KC_H,    HOME_J,  HOME_K,  HOME_L,  HOME_SCLN,
-        KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_H,    KC_I,    KC_J,
+        KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM,    KC_DOT,    KC_SLSH,
         KC_NO,   KC_NO,   KC_CAPS_LOCK,    ESC_L1,    KC_SPC,    KC_ENT,    BACKSPACE_L2,    KC_BSPC,    KC_NO,    KC_NO
     ),
     [1] = LAYOUT_ortho_4x10(
@@ -40,7 +40,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [3] = LAYOUT_ortho_4x10(
         KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,                        KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,
         RGB_HUI, RGB_SAI, KC_BTN1, KC_BTN2, KC_BTN3,                      KC_MS_L, KC_MS_D, KC_MS_U, KC_MS_R, XXXXXXX,
-        RGB_HUD, RGB_SAD, RGB_VAD, XXXXXXX, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+        RGB_HUD, RGB_SAD, RGB_VAD, XXXXXXX, XXXXXXX,                      KC_WH_L, KC_WH_D, KC_WH_U, KC_MS_R, XXXXXXX,
         KC_NO, KC_NO, KC_LGUI, _______,  KC_SPC,     KC_ENT, _______, KC_RALT, KC_NO, KC_NO
     )
 };
